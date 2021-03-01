@@ -1,4 +1,4 @@
-baseURL = "alperklc.github.io/blog"
+baseURL = "https://www.alperkilci.com/blog"
 languageCode = "en-us"
 title = "Alper Kilci's blog"
 theme = "kiss"
