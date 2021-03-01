@@ -2,6 +2,7 @@ baseURL = "alperklc.github.io/blog"
 languageCode = "en-us"
 title = "Alper Kilci's blog"
 theme = "kiss"
+publishDir = "docs"
 
 [params]
   description = "Alper Kilci's blog"

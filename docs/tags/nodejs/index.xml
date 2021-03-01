@@ -1,0 +1,46 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>nodejs on Alper Kilci&#39;s blog</title>
+    <link>alperklc.github.io/blog/tags/nodejs/</link>
+    <description>Recent content in nodejs on Alper Kilci&#39;s blog</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <language>en-us</language>
+    <lastBuildDate>Wed, 23 May 2018 20:42:30 +0000</lastBuildDate><atom:link href="alperklc.github.io/blog/tags/nodejs/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>A starter graphql project - Part 2 (UI with VueJs)</title>
+      <link>alperklc.github.io/blog/post/2018-05-23-a-starter-graphql-project-part-2-ui-with-vuejs/</link>
+      <pubDate>Wed, 23 May 2018 20:42:30 +0000</pubDate>
+      
+      <guid>alperklc.github.io/blog/post/2018-05-23-a-starter-graphql-project-part-2-ui-with-vuejs/</guid>
+      <description>In March, I&amp;rsquo;ve developed and shared a starter graphql project, which is initially intended to be a bootstrapper for Nodejs based Graphql APIs.
+This time, I&amp;rsquo;ve added a vue-js frontend to the stack. It uses apollo-clientfor communicating with the backend.
+UI is optimized for mobile devices.
+Frontend application is capable to
+ create an user login logout list existing records search records create a record edit a record delete a record  Screenshots Live demo is available: https://vue-nodejs-graphql-starter.</description>
+    </item>
+    
+    <item>
+      <title>A starter project for developing a graphql api with nodejs</title>
+      <link>alperklc.github.io/blog/post/2018-03-08-a-starter-project-for-developing-a-graphql-api-with-nodejs/</link>
+      <pubDate>Thu, 08 Mar 2018 14:23:00 +0000</pubDate>
+      
+      <guid>alperklc.github.io/blog/post/2018-03-08-a-starter-project-for-developing-a-graphql-api-with-nodejs/</guid>
+      <description>A starter API project with nodejs + express + mongodb + graphql (apollo) stack, secured by jsonwebtoken. This repository will be a starting point for my upcoming nodejs based graphql projects. Can be a starting point for anyone who is interested in learning graphql too!
+Github: https://github.com/alperklc/express-mongo-graphql-starter
+Using a mongo database on default port and creating two collections: User and Record. Collections have a 1-n relation.
+Api is running on port number 3333, serving two endpoints:</description>
+    </item>
+    
+    <item>
+      <title>Bypass internet filtering by building your own tiny proxy server</title>
+      <link>alperklc.github.io/blog/post/2018-02-23-bypass-internet-filtering-by-building-your-own-tiny-proxy-server/</link>
+      <pubDate>Fri, 23 Feb 2018 14:20:00 +0000</pubDate>
+      
+      <guid>alperklc.github.io/blog/post/2018-02-23-bypass-internet-filtering-by-building-your-own-tiny-proxy-server/</guid>
+      <description>The project is called your-own-personal-proxy. I started coding this 10 days ago. There are actually solutions for users living in the countries where internet is censored. Either free or paid, there are always risks when it comes to privacy, while surfing behind a tunnelling website or any kind of VPN service. Rolling your own solution might be the safest, unless cloud provider is not sharing the data of users.
+The repository includes a nodejs application which is designed for tunneling the traffic between server and the client.</description>
+    </item>
+    
+  </channel>
+</rss>

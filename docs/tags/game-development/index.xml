@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>game-development on Alper Kilci&#39;s blog</title>
+    <link>alperklc.github.io/blog/tags/game-development/</link>
+    <description>Recent content in game-development on Alper Kilci&#39;s blog</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <language>en-us</language>
+    <lastBuildDate>Sun, 10 Feb 2019 18:35:27 +0000</lastBuildDate><atom:link href="alperklc.github.io/blog/tags/game-development/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>Deploying Löve2D based game as a web app</title>
+      <link>alperklc.github.io/blog/post/2019-02-10-deploying-love2d-based-game-to-the-web/</link>
+      <pubDate>Sun, 10 Feb 2019 18:35:27 +0000</pubDate>
+      
+      <guid>alperklc.github.io/blog/post/2019-02-10-deploying-love2d-based-game-to-the-web/</guid>
+      <description>It&amp;rsquo;s been a while since I wrote a blog post about anything and did something in the field of game development. Well, this time it started with some game development and it leaded to this blog post.
+Recently I&amp;rsquo;ve attended a Global Game Jam event in Hamburg with @Sarge and it was quite fun. (I will write another blog post about Global Game Jams later) It wasn&amp;rsquo;t my first attendance in the Global Game Jam actually.</description>
+    </item>
+    
+  </channel>
+</rss>

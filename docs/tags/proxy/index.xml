@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>proxy on Alper Kilci&#39;s blog</title>
+    <link>alperklc.github.io/blog/tags/proxy/</link>
+    <description>Recent content in proxy on Alper Kilci&#39;s blog</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <language>en-us</language>
+    <lastBuildDate>Fri, 23 Feb 2018 14:20:00 +0000</lastBuildDate><atom:link href="alperklc.github.io/blog/tags/proxy/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>Bypass internet filtering by building your own tiny proxy server</title>
+      <link>alperklc.github.io/blog/post/2018-02-23-bypass-internet-filtering-by-building-your-own-tiny-proxy-server/</link>
+      <pubDate>Fri, 23 Feb 2018 14:20:00 +0000</pubDate>
+      
+      <guid>alperklc.github.io/blog/post/2018-02-23-bypass-internet-filtering-by-building-your-own-tiny-proxy-server/</guid>
+      <description>The project is called your-own-personal-proxy. I started coding this 10 days ago. There are actually solutions for users living in the countries where internet is censored. Either free or paid, there are always risks when it comes to privacy, while surfing behind a tunnelling website or any kind of VPN service. Rolling your own solution might be the safest, unless cloud provider is not sharing the data of users.
+The repository includes a nodejs application which is designed for tunneling the traffic between server and the client.</description>
+    </item>
+    
+  </channel>
+</rss>
