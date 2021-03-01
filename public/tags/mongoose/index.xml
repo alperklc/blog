@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>mongoose on Alper Kilci</title>
+    <link>alperklc.github.io/blog/tags/mongoose/</link>
+    <description>Recent content in mongoose on Alper Kilci</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <language>en-us</language>
+    <lastBuildDate>Thu, 08 Mar 2018 14:23:00 +0000</lastBuildDate><atom:link href="alperklc.github.io/blog/tags/mongoose/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>A starter project for developing a graphql api with nodejs</title>
+      <link>alperklc.github.io/blog/posts/2018-03-08-a-starter-project-for-developing-a-graphql-api-with-nodejs/</link>
+      <pubDate>Thu, 08 Mar 2018 14:23:00 +0000</pubDate>
+      
+      <guid>alperklc.github.io/blog/posts/2018-03-08-a-starter-project-for-developing-a-graphql-api-with-nodejs/</guid>
+      <description>A starter API project with nodejs + express + mongodb + graphql (apollo) stack, secured by jsonwebtoken. This repository will be a starting point for my upcoming nodejs based graphql projects. Can be a starting point for anyone who is interested in learning graphql too!
+Github: https://github.com/alperklc/express-mongo-graphql-starter
+Using a mongo database on default port and creating two collections: User and Record. Collections have a 1-n relation.
+Api is running on port number 3333, serving two endpoints:</description>
+    </item>
+    
+  </channel>
+</rss>

@@ -1,0 +1,22 @@
+baseURL = "alperklc.github.io/blog"
+languageCode = "en-us"
+title = "Alper Kilci's blog"
+theme = "kiss"
+
+[params]
+  description = "Alper Kilci's blog"
+  githubUsername = "alperklc"
+  twitterUsername = "alperql"
+  tagline = "I do stuff with computers."
+
+[params.info]
+  enableSocial = true # Adds OpenGraph and Twitter cards
+
+[params.social]
+  twitter = "alperql"
+  github = "alperklc"
+  email = "alperkilci@gmail.com"
+  linkedin = "alper-kılcı-39a55472"
+  
+[params.social.config]
+  platforms = ["github","twitter","email","linkedin"]
