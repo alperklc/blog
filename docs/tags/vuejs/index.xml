@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>vuejs on Alper Kilci&#39;s blog</title>
+    <link>alperklc.github.io/blog/tags/vuejs/</link>
+    <description>Recent content in vuejs on Alper Kilci&#39;s blog</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <language>en-us</language>
+    <lastBuildDate>Wed, 23 May 2018 20:42:30 +0000</lastBuildDate><atom:link href="alperklc.github.io/blog/tags/vuejs/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>A starter graphql project - Part 2 (UI with VueJs)</title>
+      <link>alperklc.github.io/blog/post/2018-05-23-a-starter-graphql-project-part-2-ui-with-vuejs/</link>
+      <pubDate>Wed, 23 May 2018 20:42:30 +0000</pubDate>
+      
+      <guid>alperklc.github.io/blog/post/2018-05-23-a-starter-graphql-project-part-2-ui-with-vuejs/</guid>
+      <description>In March, I&amp;rsquo;ve developed and shared a starter graphql project, which is initially intended to be a bootstrapper for Nodejs based Graphql APIs.
+This time, I&amp;rsquo;ve added a vue-js frontend to the stack. It uses apollo-clientfor communicating with the backend.
+UI is optimized for mobile devices.
+Frontend application is capable to
+ create an user login logout list existing records search records create a record edit a record delete a record  Screenshots Live demo is available: https://vue-nodejs-graphql-starter.</description>
+    </item>
+    
+  </channel>
+</rss>
