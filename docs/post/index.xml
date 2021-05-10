@@ -6,7 +6,17 @@
     <description>Recent content in Posts on Alper Kilci&#39;s blog</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>en-us</language>
-    <lastBuildDate>Sun, 10 Feb 2019 18:35:27 +0000</lastBuildDate><atom:link href="https://www.alperkilci.com/blog/post/index.xml" rel="self" type="application/rss+xml" />
+    <lastBuildDate>Tue, 27 Apr 2021 14:37:27 +0000</lastBuildDate><atom:link href="https://www.alperkilci.com/blog/post/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>It is worth to write</title>
+      <link>https://www.alperkilci.com/blog/post/2021-04-27-on-writing/</link>
+      <pubDate>Tue, 27 Apr 2021 14:37:27 +0000</pubDate>
+      
+      <guid>https://www.alperkilci.com/blog/post/2021-04-27-on-writing/</guid>
+      <description>Humans like to leave their mark on the world. It can be anything we can see, from buildings to monuments; or it can be something abstract that we can only grasp with our minds. Or both; we can create something physical which stimulates thoughts or feelings, gives inspiration to others. I&amp;rsquo;m going to reflect on writing, which can fall into all categories.
+In the physical world, we apply pressure on surfaces with a tool such as a pen, to form some signs or letters.</description>
+    </item>
+    
     <item>
       <title>Deploying Löve2D based game as a web app</title>
       <link>https://www.alperkilci.com/blog/post/2019-02-10-deploying-love2d-based-game-to-the-web/</link>
