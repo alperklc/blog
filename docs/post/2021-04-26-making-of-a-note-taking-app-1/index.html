@@ -1,0 +1,160 @@
+<!DOCTYPE html>
+<html xmlns="http://www.w3.org/1999/xhtml"  lang="en-us">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+
+<title>The making of a note-taking app / Part 1 - Why I started building it | Alper Kilci&#39;s blog</title>
+
+<meta property='og:title' content='The making of a note-taking app / Part 1 - Why I started building it - Alper Kilci&#39;s blog'>
+<meta property='og:description' content='The pandemic gave me a lot of boredom. And boredom has different effects on different people: some try new things, some rediscover usual hobbies or activities. Living under lockdown conditions made me try new things especially at home: I built shelves and decoration articles from wood and scratched wallpapers to make the living room look like a cafe for example. I spent much time with plants as well. I planted a couple of avocado seeds like many people.'>
+<meta property='og:url' content='https://www.alperkilci.com/blog/post/2021-04-26-making-of-a-note-taking-app-1/'>
+<meta property='og:site_name' content='Alper Kilci&#39;s blog'>
+<meta property='og:type' content='article'><meta property='og:image' content='https://www.gravatar.com/avatar/43619ecd3ebb1e690a88b6e749d4c0f3?s=256'><meta property='article:section' content='Post'><meta property='article:tag' content='writing'><meta property='article:tag' content='hobby project'><meta property='article:tag' content='software development'><meta property='article:published_time' content='2021-04-26T08:23:25Z'><meta property='article:modified_time' content='2021-04-26T08:23:25Z'><meta name='twitter:card' content='summary'><meta name='twitter:site' content='@alperql'><meta name='twitter:creator' content='@alperql'>
+
+
+<link rel="stylesheet" href="/blog/css/style.css"><link rel="apple-touch-icon" sizes="180x180" href="/apple-touch-icon.png">
+<link rel="icon" type="image/png" sizes="32x32" href="/favicon-32x32.png">
+<link rel="icon" type="image/png" sizes="16x16" href="/favicon-16x16.png">
+<link rel="manifest" href="/site.webmanifest">
+<link rel="mask-icon" href="/safari-pinned-tab.svg" color="#5bbad5">
+<link rel="canonical" href="https://www.alperkilci.com/blog/post/2021-04-26-making-of-a-note-taking-app-1/">
+<meta name="msapplication-TileColor" content="#da532c">
+<meta name="theme-color" content="#ffffff">
+</head>
+<body>
+<section class="section">
+  <div class="container">
+    <nav id="nav-main" class="nav">
+      <div id="nav-name" class="nav-left">
+        <a id="nav-anchor" class="nav-item" href="https://www.alperkilci.com/blog">
+          <h1 id="nav-heading" class="title is-4">Alper Kilci&#39;s blog</h1>
+        </a>
+      </div>
+      <div class="nav-right">
+        <nav id="nav-items" class="nav-item level is-mobile"><a class="level-item" aria-label="github" href='https://github.com/alperklc'
+            target='_blank' rel='noopener'>
+            <span class="icon">
+              <i class><svg viewbox='0 0 24 24' stroke-linecap='round' stroke-linejoin='round' stroke-width='2' aria-hidden='true'>
+    
+    <path d="M9 19c-5 1.5-5-2.5-7-3m14 6v-3.87a3.37 3.37 0 0 0-.94-2.61c3.14-.35 6.44-1.54 6.44-7A5.44 5.44 0 0 0 20 4.77 5.07 5.07 0 0 0 19.91 1S18.73.65 16 2.48a13.38 13.38 0 0 0-7 0C6.27.65 5.09 1 5.09 1A5.07 5.07 0 0 0 5 4.77a5.44 5.44 0 0 0-1.5 3.78c0 5.42 3.3 6.61 6.44 7A3.37 3.37 0 0 0 9 18.13V22"/>
+    
+  </svg></i>
+            </span>
+          </a><a class="level-item" aria-label="twitter" href='https://twitter.com/alperql'
+            target='_blank' rel='noopener'>
+            <span class="icon">
+              <i class><svg viewbox='0 0 24 24' stroke-linecap='round' stroke-linejoin='round' stroke-width='2' aria-hidden='true'>
+    
+    <path d="M23 3a10.9 10.9 0 0 1-3.14 1.53 4.48 4.48 0 0 0-7.86 3v1A10.66 10.66 0 0 1 3 4s-4 9 5 13a11.64 11.64 0 0 1-7 2c9 5 20 0 20-11.5a4.5 4.5 0 0 0-.08-.83A7.72 7.72 0 0 0 23 3z"/>
+    
+  </svg></i>
+            </span>
+          </a><a class="level-item" aria-label="email" href='mailto:alperkilci@gmail.com'
+            target='_blank' rel='noopener'>
+            <span class="icon">
+              <i class><svg viewbox='0 0 24 24' stroke-linecap='round' stroke-linejoin='round' stroke-width='2' aria-hidden='true'>
+    
+    <path d="M4 4h16c1.1 0 2 .9 2 2v12c0 1.1-.9 2-2 2H4c-1.1 0-2-.9-2-2V6c0-1.1.9-2 2-2z"/>
+    <polyline points="22,6 12,13 2,6"/>
+    
+  </svg></i>
+            </span>
+          </a><a class="level-item" aria-label="linkedin" href='https://linkedin.com/in/alper-k%c4%b1lc%c4%b1-39a55472'
+            target='_blank' rel='noopener'>
+            <span class="icon">
+              <i class><svg viewbox='0 0 24 24' stroke-linecap='round' stroke-linejoin='round' stroke-width='2' aria-hidden='true'>
+    
+    <path stroke-width="1.8" d="m5.839218,4.101561c0,1.211972 -0.974141,2.194011 -2.176459,2.194011s-2.176459,-0.982039 -2.176459,-2.194011c0,-1.211094 0.974141,-2.194011 2.176459,-2.194011s2.176459,0.982917 2.176459,2.194011zm0.017552,3.94922l-4.388022,0l0,14.04167l4.388022,0l0,-14.04167zm7.005038,0l-4.359939,0l0,14.04167l4.360816,0l0,-7.370999c0,-4.098413 5.291077,-4.433657 5.291077,0l0,7.370999l4.377491,0l0,-8.89101c0,-6.915523 -7.829986,-6.66365 -9.669445,-3.259423l0,-1.891237z"/>
+    
+  </svg></i>
+            </span>
+          </a></nav>
+      </div>
+    </nav>
+
+    <nav class="nav">
+      
+
+      
+    </nav>
+
+  </div>
+  <script src="/js/navicon-shift.js"></script>
+</section>
+<section class="section">
+  <div class="container">
+    <div class="subtitle tags is-6 is-pulled-right">
+      
+      
+<a class="subtitle is-6" href="/blog/tags/writing/">#writing</a>
+
+
+
+  
+  | <a class="subtitle is-6" href="/blog/tags/hobby-project/">#hobby project</a>
+  
+  | <a class="subtitle is-6" href="/blog/tags/software-development/">#software development</a>
+  
+
+
+      
+    </div>
+    <h2 class="subtitle is-6">April 26, 2021</h2>
+    <h1 class="title">The making of a note-taking app / Part 1 - Why I started building it</h1>
+    
+    <div class="content">
+      <p>The pandemic gave me a lot of boredom. And boredom has different effects on different people: some try new things, some rediscover usual hobbies or activities. Living under lockdown conditions made me try new things especially at home: I built shelves and decoration articles from wood and scratched wallpapers to make the living room look like a cafe for example. I spent much time with plants as well. I planted a couple of avocado seeds like many people. It is nice to watch them growing slowly as time flies.</p>
+<p>I wanted to work on something beneficial, especially for organizing my mental resources. Since I spend a lot of time in front of a computer screen, no wonder why most of the problems I observed are rooted in my digital life. Time spent on the internet has side effects - most people experience a decrease in focus due to the amount of multitasking and constantly getting stimulated by the notifications.</p>
+<p>Gathering the thoughts together gets easier once you start writing regularly, therefore I wanted to form a habit. As I started working on this, I put thought into identifying problems I want to solve by being a better writer:</p>
+<ul>
+<li>
+<p><strong>Getting lost in the digital world</strong>: I&rsquo;m exposed to a continuous stream of information. Sometimes I need to find a code snippet that I need for my current task at work. Or the recipe of a pasta sauce I discovered recently, while I&rsquo;m at the supermarket. I should be able to find my content easily on my computer and my smartphone.</p>
+</li>
+<li>
+<p><strong>Lack of aggregated search across platforms/apps</strong>: Platforms I use usually let me keep a list of stuff I like. I like tweets on Twitter or give stars to projects on Github. Sometimes I need to search one word and find content from independent platforms. To this end, I have to visit all of these sites and -if they don&rsquo;t offer a search feature- scroll down on the list until I find the thing I liked. An aggregated experience for searching everything I like on multiple platforms at the same time is what I need.</p>
+<p>I could get information from other platforms in two ways, first one is to develop applications to fetch information via APIs of Twitter, GitHub, or any platform I would like to communicate with. It would take plenty of time since I had to work on each platform individually. The second way is to make a web or mobile application that should be reachable on my mobile device native share target list so that I could click on the share button and select my app to keep this information. It wouldn&rsquo;t automate the information sharing between applications but it would absolutely take less time to develop. I could build the same feature for my laptops via browser extensions.</p>
+</li>
+<li>
+<p><strong>Disorganized online reading habits</strong>: I like to store bookmarks on browsers. Browsers make it possible to search within the bookmarks and sync it between devices. It is helpful, depending on how we use it. For instance, a blog post with an interesting title will land on the pile of bookmarks. Sometimes I don&rsquo;t even read it. The cognitive load of unread posts or articles makes it difficult to find the one that I&rsquo;m looking for. Although the browsers let you search your bookmarks, they do not indicate if you&rsquo;ve already visited them. I&rsquo;d delete the ones that stay unread more than a week, for having more headspace.</p>
+</li>
+<li>
+<p><strong>Searching bookmarks by scrapped page content</strong>: It is not possible to search by the page content on stored bookmarks on my browser. Plus, the content of the pages could be deleted or changed as well. There must be a service to parse all the pages for me and I should be able to keep and search within all content I keep.</p>
+</li>
+<li>
+<p><strong>Having own cloud services like Google Drive or Dropbox</strong>: There are gif pickers on lots of platforms like Slack or Discord. It works quite nice but I wish I had something personalized for sending my content to chats. Or find the scanned copy of my rental contract without searching within my emails. I needed a structure that could keep folders filled with my meme collection or boring stuff, that is reachable via a web app. And sometimes I need to give links to these files from my personal notes. Having files and notes in the same application would make the usage of it much easier.</p>
+</li>
+</ul>
+<h2 id="why-did-i-start-building-my-own-app">Why did I start building my own app?</h2>
+<p>Given all problems, I noticed that I was undecided about the tools and mediums. And there isn&rsquo;t a one-size-fits-all solution. Problems about storing and searching textual data could be solved by taking notes. It&rsquo;s all about finding the right tool for the use case and building habits around it. Of course, there are hundreds of software for that. And people often switch to another one easily. Bookmarks could also be stored as notes and there are of course nice apps specialized for this use case, such as Pocket (Read Later). Pictures that could be stored on a service like Google Cloud / Imgur could be shared by sending public links to these files. Since I had too much time on my hands, why wouldn&rsquo;t I build my own solution? As I started working on it, I reflected on my decision and thought of these reasons:</p>
+<p><strong>Nudging myself to write more</strong>: Creating a virtuous cycle by building an app to write more and writing more to test the app that I&rsquo;m building. Practicing writing and programming at the same time as a result.</p>
+<p><strong>Not relying on services outside of my control</strong>: Apps on the cloud can be shut down, change their features/design, or their payment plans. If I can have control over the applications' source code, I would eliminate these risks. Nevertheless, security breaches would still be a problem because application security requires expertise in the field.</p>
+<p><strong>Gaining experiences in software architecture and giving back to society</strong>: I&rsquo;m not the only developer who built a note-taking app for sure. There are too many examples on the internet. Most of them are open source too, there are too many resources to get inspiration. There could be as many note-taking apps on GitHub as Stairway to Heaven guitar cover videos on YouTube. I used lots of resources on the internet and I&rsquo;d be more than happy if I could inspire other developers and give back to the internet.</p>
+<p><strong>Developing an application for my own usage</strong>: As many of us think that building software as a hobby requires intrinsic motivation, I believe it&rsquo;s true. Working on a product that I use in my daily life gives me the motivation I need.</p>
+<p><strong>Having something to show on my portfolio</strong>: Having a useful and working application on my portfolio is much better than tens of weekend projects I wrote for trying a new programming language or a library.</p>
+<h2 id="thinking-along-the-way">Thinking along the way</h2>
+<p>Everything I write here summarizes the motivation that kept me working on this side project. I didn&rsquo;t start working on this project by writing about what I&rsquo;m going to build. The application I&rsquo;m building literally helped me to write these lines; I kept a journal to record what&rsquo;s on my mind about the project and added notes now and then.</p>
+<p>This post is just a compilation of short notes I have taken during the development of this project. Instead of defining clear goals before getting started, wanted to think about my objectives along the way. This is not the final version of this post neither, this post will keep receiving updates as long as I work on the project.</p>
+
+      
+    </div>
+    
+  </div>
+</section>
+
+
+
+<section class="section">
+  <div class="container has-text-centered">
+    <p></p>
+    
+  </div>
+</section>
+
+
+
+
+
+</body>
+</html>
+
