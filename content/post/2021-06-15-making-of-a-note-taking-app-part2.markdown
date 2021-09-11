@@ -7,7 +7,7 @@ tags:
 title: The making of a note-taking app / Part 2 - On hobby projects
 ---
 
-In my previous post, I reflected on the reasons to build this application. I gained many experiences along the journey. There are lots of content on the internet about the usage of tools and they get outdated quickly. Therefore I'd like to share my thoughts and opinions about building a side project, rather than teaching how to use the tools I used.
+In my [my previous post](https://www.alperkilci.com/blog/post/2021-04-26-making-of-a-note-taking-app-1/), I reflected on the reasons to build a note taking application. I gained many experiences along the journey. There are lots of content on the internet about the usage of tools and they get outdated quickly. Therefore I'd like to share my thoughts and opinions about building a side project, rather than teaching how to use the tools I used.
 
 Before starting to code, I've had a couple of code snippets from unfinished side projects. At first, I thought it shouldn't take much time to bootstrap a project and create a prototype to get started. It's easy to get started, indeed. But soon after getting started, the project feels like a never-ending "choose your own adventure" book. This feeling is especially noticeable, once some architectural decisions have to be made. Each decision taught me a lesson on trade-offs in software engineering. It also made me think of differences between professional work and hobby work.
 
